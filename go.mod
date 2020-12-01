@@ -11,6 +11,7 @@ require (
 	github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c // indirect
 	github.com/facebookgo/stack v0.0.0-20160209184415-751773369052 // indirect
 	github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4 // indirect
+	github.com/fatih/color v1.10.0 // indirect
 	github.com/golang/protobuf v1.3.2
 	github.com/hokaccha/go-prettyjson v0.0.0-20190818114111-108c894c2c0e
 	github.com/jhump/protoreflect v1.5.0
@@ -18,7 +19,7 @@ require (
 	github.com/lovoo/goka v0.1.4 // indirect
 	github.com/magiconair/properties v1.8.1
 	github.com/manifoldco/promptui v0.3.2
-	github.com/mattn/go-colorable v0.1.2
+	github.com/mattn/go-colorable v0.1.8
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/nicksnyder/go-i18n v1.10.1 // indirect
 	github.com/orlangure/gnomock v0.9.4
@@ -30,5 +31,7 @@ require (
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c
 	gopkg.in/alecthomas/kingpin.v3-unstable v3.0.0-20180810215634-df19058c872c // indirect
 	gopkg.in/linkedin/goavro.v1 v1.0.5 // indirect
-	gopkg.in/yaml.v2 v2.2.8
+	gopkg.in/yaml.v2 v2.3.0
 )
+
+replace github.com/spf13/cobra v1.1.1 => github.com/Luap99/cobra v1.0.1-0.20200907141025-f2bf99267f1b
